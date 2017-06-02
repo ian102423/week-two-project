@@ -1,0 +1,40 @@
+@font-face{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Sans'), url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+}
+
+html{
+
+}
+
+body{
+    font-family: 'PT Sans';
+}
+
+header{
+    display: flex;
+}
+
+.header-img{
+    content: url(../images/filmclub.png);
+    height: 6rem;
+}
+
+
+main1{
+
+}
+
+main2{
+
+}
+
+footer{
+
+}
+
+
+
+
