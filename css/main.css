@@ -122,6 +122,11 @@ main {
     width: 40%;
 }
 
+.main-img-indv-box > a {
+    font-size: 2rem;
+    color: rgb(0, 173, 205);
+}
+
 .film-film-club {
     display: flex;
     flex-direction: row;
@@ -173,6 +178,11 @@ main {
 .main-img-set-set > img {
     height: 75%;
     width: 90%;
+}
+
+.main-img-set-set > a {
+    font-size: 1.5rem;
+    color: rgb(0, 173, 205);
 }
 
 .main-img-set-set > h3 {
