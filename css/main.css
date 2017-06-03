@@ -17,22 +17,24 @@ header {
     background-color: rgb(76, 220, 229);
     display: flex;
     height: 7.5rem;
-
 }
 
 #header-logo {
-    background-color: #F5005B;  
-    width: 30%;
+    background-color: #F5005B;
+    max-width: 7rem;
+    min-width: 7rem;
     text-align: center;
     flex: 2;
     padding-top: .5rem;
 }
 
-#header-logo > img{
+#header-logo > img {
     width: 80%;
+    max-height: 90%;
+    max-width: 90%;
 }
 
-.header-texts{
+.header-texts {
     flex: 7;
     width: 100%;
     display: flex;
@@ -43,7 +45,10 @@ header {
     color: #ffffff;
     text-align: center;
     height: 33%;
-    padding-top: .55rem;
+}
+
+.header > p {
+    margin-top: .65rem;
 }
 
 #header-home {
@@ -68,7 +73,7 @@ main {
     font-size: 2.5rem;
 }
 
-.main-text > h2 {
+.main-text > div > h2 {
     background-color: #0B1942;
     color: #ffffff;
     font-weight: 400;
@@ -102,32 +107,32 @@ main {
     color: #0B1942;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
 
-.main-img-indv > img{
+.main-img-indv > img {
     margin: 1rem;
-    height: 45%;
-    width: 45%;
+    height: 100%;
+    width: 40%;
 }
 
 .main-img-indv-box {
     padding: 1rem;
+    height: 90%;
     width: 40%;
-}
-
-.rashomon {
-
 }
 
 .film-film-club {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 .film-club-text {
     font-size: 1.2rem;
     font-weight: 300;
-    width: 50%;
+    width: 85px;
+    min-width: 85px;
 }
 
 .film-club {
@@ -135,21 +140,11 @@ main {
     width: 50%;
 }
 
-
-
-
-
-
-
 .main-img-indv-box > h2 {
     color: rgb(0, 173, 205);
     font-size: 2rem;
     font-weight: 400;
     text-decoration: underline;
-}
-
-.discussion-points {
-
 }
 
 .discussion-ul {
@@ -163,21 +158,28 @@ main {
     border-top: 1px solid #0B1942;
 }
 
-.discussion-ul > li {
-
-}
-
 .main-img-set {
     background-color: rgb(219, 219, 219);
+    padding: 1rem;
+    padding-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-img-set-set {
+    width: 50%;
+}
+
+.main-img-set-set > img {
+    height: 75%;
+    width: 90%;
 }
 
 .main-img-set-set > h3 {
     color: #000000;
     font-weight: 200;
-}
-
-.main-img-1 {
-
+    margin-top: 0;
+    margin-bottom: .5rem;
 }
 
 h3.main-text-text {
@@ -185,41 +187,23 @@ h3.main-text-text {
     text-decoration: underline;
 }
 
-h3.first-img-margin {
-
-}
-
 span {
     font-weight: 800;
 }
 
-.main-img-2 {
-
-}
-
-.main-img-3 {
-
-}
-
-.main-img-4 {
-
-}
-
 footer {
     background-color: rgb(76, 220, 229);
-}
-
-.footer {
     color: #ffffff;
-
+    text-align: center;
+    flex-direction: column;
 }
 
-.footer #foot-foot {
-
+.footer-set {
+    margin: 0;
 }
 
-.footer #foot-copyright {
-
+.footer-set > div {
+    padding: 1rem;
 }
 
 #footer-home {
@@ -234,10 +218,82 @@ footer {
     background-color: rgb(0, 210, 229);
 }
 
-@media screen and (min-width: 970px){
-
+#footer-inc {
+    padding: 2rem 0;
 }
 
-@media screen and (min-width: 550px){
+@media screen and (min-width: 545px) {
+    .header-texts {
+        flex-direction: row;
+    }
+    .header {
+        height: 7.5rem;
+        width: 7rem;
+        padding: 0;
+    }
+    .header > p {
+        margin-top: 42%;
+    }
+    .main-text {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .main-text > div {
+        margin-left: 2%;
+        width: 30%;
+    }
+    .main-img-set-set {
+        height: 100%;
+        width: 25%;
+    }
+    footer {
+        display: flex;
+    }
+    .footer-set {
+        background-color: rgb(76, 220, 229);
+        color: #ffffff;
+        display: flex;
+        height: 120px;
+    }
+    div.footer-set-set {
+        width: 5rem;
+        min-width: 5rem;
+        max-height: 120px;
+        padding-top: 3rem;
+    }
+    #footer-inc {
+        margin-top: .3rem;
+        width: 70%;
+        padding: 2.7rem 1rem 0 0;
+        text-align: end;
+    }
+}
 
+@media screen and (min-width: 769px) {
+    .board {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .up-next {
+        width: 100%;
+    }
+    #footer-inc {
+        width: 90%;
+    }
+    .main-img-indv {
+        width: 45%;
+        height: 20%;
+        max-height: 20%;
+    }
+    .main-img-set {
+        width: 45%;
+        height: 100%;
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+    .main-img-set-set {
+        width: 50%;
+    }
 }
