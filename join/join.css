@@ -1,282 +1,297 @@
 @font-face {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('PT Sans'), url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'),
+    url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
 }
 
 html {
-    color: #0B1942;
+  color: #0B1942;
 }
 
 body {
-    font-family: 'PT Sans';
+  font-family: 'PT Sans';
 }
 
 header {
-    background-color: rgb(76, 220, 229);
-    display: flex;
-    height: 7.5rem;
+  background-color: rgb(76, 220, 229);
+  display: flex;
+  height: 7.5rem;
 }
 
 #header-logo {
-    background-color: #F5005B;
-    max-width: 7rem;
-    min-width: 7rem;
-    text-align: center;
-    flex: 2;
-    padding-top: .5rem;
+  background-color: #F5005B;
+  max-width: 7rem;
+  min-width: 7rem;
+  text-align: center;
+  flex: 2;
+  padding-top: .5rem;
 }
 
 #header-logo > img {
-    width: 80%;
-    max-height: 90%;
-    max-width: 90%;
+  width: 80%;
+  max-height: 90%;
+  max-width: 90%;
 }
 
 .header-texts {
-    flex: 7;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  flex: 7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-    color: #ffffff;
-    text-align: center;
-    height: 33%;
+  color: #ffffff;
+  text-align: center;
+  height: 33%;
 }
 
-.header > p {
-    margin-top: .65rem;
+a {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2.5rem;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 #header-home {
-    background-color: rgb(0, 152, 181);
+  background-color: rgb(0, 152, 181);
 }
 
 #header-calender {
-    background-color: rgb(0, 173, 205);
+  background-color: rgb(0, 173, 205);
 }
 
 #header-join {
-    background-color: rgb(0, 210, 229);
+  background-color: rgb(0, 210, 229);
 }
 
 main {
-    background-color: rgb(255, 255, 255);
-    padding: 0 1rem;
-    font-size: .8rem;
-    margin-bottom: 3rem;
+  background-color: rgb(255, 255, 255);
+  padding: 0 1rem;
+  font-size: .8rem;
+  margin-bottom: 3rem;
 }
 
 .top {
-    margin-bottom: 1rem;
-    width: 100%;
+  margin-bottom: 1rem;
+  width: 100%;
 }
 
 .top > h2 {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .topAddPicture > label {
-    font-size: .8rem;
+  font-size: .8rem;
 }
 
 #topProfile > img {
-    width: 100%;
-    border-radius: 50rem;
-    margin-top: 2rem;
+  width: 100%;
+  border-radius: 50rem;
+  margin-top: 2rem;
 }
 
 .mid {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .midInput {
-    margin-bottom: .8rem;
+  margin-bottom: .8rem;
 }
 
 .midInput > input {
-    width: 100%;
+  width: 100%;
 }
 
 .midName {
-    width: 100%;
+  width: 100%;
 }
 
 .bottom {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .bottom > h4 {
-    font-weight: 100;
-    margin-bottom: 1rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
 }
 
 .bottomCheckbox {
-    margin-bottom: .7rem;
+  margin-bottom: .7rem;
 }
 
 #western {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .bottom > label {
-    width: 100%;
-    margin-bottom: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .bottom > textarea {
-    widows: 100%;
+  widows: 100%;
 }
 
 .bottomJoin > button {
-    font-size: .7rem;
-    background-color: rgb(255, 0, 70);
-    color: #ffffff;
-    border: none;
-    margin-top: 2rem;
-    padding: 1rem;
+  font-size: .7rem;
+  background-color: rgb(255, 0, 70);
+  color: #ffffff;
+  border: none;
+  margin-top: 2rem;
+  padding: 1rem;
 }
 
 footer {
-    background-color: rgb(76, 220, 229);
-    color: #ffffff;
-    text-align: center;
-    flex-direction: column;
+  background-color: rgb(76, 220, 229);
+  color: #ffffff;
+  text-align: center;
+  flex-direction: column;
 }
 
 .footer-set {
-    margin: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.footer-set > div {
-    padding: 1rem;
+.footer-set > a {
+  padding: 0rem 2rem;
+  width: 100%;
 }
 
 #footer-home {
-    background-color: rgb(0, 152, 181);
+  background-color: rgb(0, 152, 181);
 }
 
 #footer-calender {
-    background-color: rgb(0, 173, 205);
+  background-color: rgb(0, 173, 205);
 }
 
 #footer-join {
-    background-color: rgb(0, 210, 229);
+  background-color: rgb(0, 210, 229);
+}
+
+.footer-set > div {
+  padding: 0rem 2rem;
+  width: 100%;
 }
 
 #footer-inc {
-    padding: 2rem 0;
+  text-align: center;
+  min-width: 150px;
+  padding: 2rem;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 545px) {
-    .header-texts {
-        flex-direction: row;
-    }
-    .header {
-        height: 7.5rem;
-        width: 7rem;
-        padding: 0;
-    }
-    .header > p {
-        margin-top: 42%;
-    }
-    .littleBox:after {
-        content: "";
-        display: block;
-        padding-bottom: 70%;
-    }
-    #topProfile {
-        width: 95%;
-    }
-    main {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .top {
-        width: 50%;
-    }
-    .mid {
-        margin-top: 3.5rem;
-        width: 50%;
-    }
-    .midInput > input {
-        height: 1.5rem;
-    }
-    #midInputPassword {
-        margin-top: 5rem;
-    }
-    .bottom > h4 {
-        width: 100%;
-    }
-    .bottom {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .bottomCheckbox {
-        width: 50%;
-        margin-right: 0;
-    }
-    .bottomMessage > label {
-        width: 100%;
-    }
-    .bottomBottom {
-        width: 100%;
-    }
-    .bottomBottom > textarea {
-        width: 100%;
-    }
-    footer {
-        display: flex;
-    }
-    .footer-set {
-        background-color: rgb(76, 220, 229);
-        color: #ffffff;
-        display: flex;
-        height: 120px;
-    }
-    div.footer-set-set {
-        width: 5rem;
-        min-width: 5rem;
-        max-height: 120px;
-        padding-top: 3rem;
-    }
-    #footer-inc {
-        margin-top: .3rem;
-        width: 70%;
-        padding: 2.7rem 1rem 0 0;
-        text-align: end;
-    }
+  .header-texts {
+    flex-direction: row;
+  }
+  .header {
+    height: 7.5rem;
+    width: 7rem;
+    padding: 0;
+  }
+  .header > a {
+    line-height: 7.2rem;
+  }
+  .littleBox:after {
+    content: "";
+    display: block;
+    padding-bottom: 70%;
+  }
+  #topProfile {
+    width: 95%;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top {
+    width: 50%;
+  }
+  .mid {
+    margin-top: 3.5rem;
+    width: 50%;
+  }
+  .midInput > input {
+    height: 1.5rem;
+  }
+  #midInputPassword {
+    margin-top: 5rem;
+  }
+  .bottom > h4 {
+    width: 100%;
+  }
+  .bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bottomCheckbox {
+    width: 50%;
+    margin-right: 0;
+  }
+  .bottomMessage > label {
+    width: 100%;
+  }
+  .bottomBottom {
+    width: 100%;
+  }
+  .bottomBottom > textarea {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+  }
+  .footer-set {
+    background-color: rgb(76, 220, 229);
+    color: #ffffff;
+    height: 120px;
+    max-height: 120px;
+  }
+  .footer-set > a {
+    width: 112px;
+    height: 120px;
+    padding: 0;
+    line-height: 7.5rem;
+  }
+  .footer-set > div {
+    width: 150px;
+    text-align: right;
+  }
+  #footer-inc {
+    margin-top: .3rem;
+    padding: 2.7rem 1rem 0 0;
+  }
 }
 
 @media screen and (min-width: 769px) {
-    .top {
-        width: 33%;
-    }
-    .mid {
-        display: flex;
-        flex-wrap: wrap;
-        height: 8rem;
-        width: 66%;
-    }
-    .midInput {
-        width: 48%;
-    }
-    .midInput:nth-child(odd) {
-        margin-right: 1rem;
-    }
-    #midInputPassword {
-        margin-top: 0;
-    }
-    .bottomCheckbox {
-        width: 33%;
-    }
-    .bottomBottom > textarea {
-        width: 66%;
-    }
-    #footer-inc {
-        width: 90%;
-    }
+  .top {
+    width: 33%;
+  }
+  .mid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 8rem;
+    width: 66%;
+  }
+  .midInput {
+    width: 48%;
+  }
+  .midInput:nth-child(odd) {
+    margin-right: 1rem;
+  }
+  #midInputPassword {
+    margin-top: 0;
+  }
+  .bottomCheckbox {
+    width: 33%;
+  }
+  .bottomBottom > textarea {
+    width: 66%;
+  }
 }
