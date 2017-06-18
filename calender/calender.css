@@ -174,12 +174,22 @@ footer {
     flex-direction: row;
   }
   .header {
-    height: 7.5rem;
+    margin-top: 0rem;
+    height: 5.5rem;
     width: 7rem;
     padding: 0;
   }
-  .header > p {
-    margin-top: 42%;
+
+  #header-home {
+    padding-top: 2rem;
+  }
+
+  #header-calender {
+    padding-top: 2rem;
+  }
+
+  #header-join {
+    padding-top: 2rem;
   }
   .littleBox:after {
     content: "";

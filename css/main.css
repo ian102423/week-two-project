@@ -261,9 +261,23 @@ footer {
   }
 
   .header {
-    height: 7.5rem;
+    margin-top: 0rem;
+    height: 5.5rem;
     width: 7rem;
     padding: 0;
+    
+  }
+
+  #header-home{
+    padding-top: 2rem;
+  }
+
+  #header-calender{
+    padding-top: 2rem;
+  }
+
+   #header-join{
+    padding-top: 2rem;
   }
 
   .footer-set-set > a > h3 {

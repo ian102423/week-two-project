@@ -191,13 +191,24 @@ footer {
   .header-texts {
     flex-direction: row;
   }
-  .header {
-    height: 7.5rem;
+   .header {
+    margin-top: 0rem;
+    height: 5.5rem;
     width: 7rem;
     padding: 0;
+    
   }
-  .header > a {
-    line-height: 7.2rem;
+
+  #header-home{
+    padding-top: 2rem;
+  }
+
+  #header-calender{
+    padding-top: 2rem;
+  }
+
+   #header-join{
+    padding-top: 2rem;
   }
   .littleBox:after {
     content: "";
